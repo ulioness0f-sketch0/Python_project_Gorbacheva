@@ -2,5 +2,7 @@
 A = int(input("Введите значение A: "))
 B = int(input("Введите значение B: "))
 
-result = A%2==0 or B%2==0
-print(result)
+if (A % 2 == 0) or (B % 2 ==0):
+    print(True)
+else:
+    print(False)
